@@ -8,8 +8,8 @@ import { VisitUsComponent } from './Components/visit-us/visit-us.component';
 
 const routes: Routes = [
   
-  {path:'',title: 'Belief Ministries',component:HomeComponent},
-  {path:'Home',title: 'Belief Ministries',component:HomeComponent},
+  {path:'', pathMatch:'full' ,title: 'Belief Ministries',component:HomeComponent},
+  {path:'Home', pathMatch:'full',title: 'Belief Ministries',component:HomeComponent},
   {path:'About',title: 'Belief Ministries | About',component:AboutComponent},
   {path:'Events',title: 'Belief Ministries | Events',component:EventsComponent},
   {path:'Visit-Us',title: 'Visit Belief Ministries',component:VisitUsComponent},

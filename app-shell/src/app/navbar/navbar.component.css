@@ -4,3 +4,8 @@
     background-position: center;
     height: 500px;
 }
+
+.navbar-toggler{
+    border: 1px solid greenyellow;
+    outline: none;
+}
