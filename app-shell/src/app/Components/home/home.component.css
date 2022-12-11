@@ -1,0 +1,121 @@
+.godmsg{
+    animation: fadetext 3s;  
+}
+
+@keyframes fadetext{
+    0%{
+        opacity: 0;
+      transform: translateY(-100px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.flex-pastor{
+    display: flex;
+    background-color: #dfdfdf;
+    margin-bottom: 3rem;
+    height: auto;
+    width: auto;
+}
+
+.pastor-img{
+    background: url('../../../assets/img/pssd.png');
+    background-size: cover;
+    background-position: center;
+    height: 819px;
+   width: 100%;
+   margin: 1rem;
+}
+
+.events-tagline{
+    display: grid;
+    background-color: #dfdfdf;
+    color: #9e7b11;
+    height: 350px;
+    width: 100%;
+    place-items: center;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+.event-section{
+    display: grid;
+    place-items: center;
+    place-content: center;
+    grid-template-columns: repeat(auto-fit,minmax(350px,1fr));
+    gap: .5em;
+    padding: .8rem 0;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.card{
+    width: 350px;
+    padding: 1rem 0;
+    margin: .3rem 0;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.card-btn{
+    background-color: #835e0a;
+    color: #fff;
+    padding: 1rem;
+    border: none;
+    width: 50%;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: .3s;
+    margin: auto;
+}
+
+.card-btn:hover{
+    background-color: #dc9b09;
+    
+}
+
+.card-img1{
+    background: url('../../../assets/img/Bible-Studies.png');
+    background-size: cover;
+    background-position: center;
+    height: 333px;
+}
+.card-img2{
+    background: url('../../../assets/img/worsh.png');
+    background-size: cover;
+    background-position: center;
+    height: 333px;
+}
+.card-img3{
+    background: url('../../../assets/img/sunay-school.png');
+    background-size: cover;
+    background-position: center;
+    height: 333px;
+}
+
+@media(max-width:2160px){
+    .pastor-img{
+    background-size: contain;
+    background-repeat: no-repeat;
+}}
+@media(max-width:900px){
+    .flex-pastor{
+        flex-direction: column;
+    }
+    .pastor-img{
+    background-size: cover;
+    margin: 0;
+}}
+
+@media(max-width:768px){
+    .pastor-img{
+        height: 250px;
+    }
+
+    .subpasttext{
+        width: auto !important;
+    }
+}

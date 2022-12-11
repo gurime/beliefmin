@@ -1,0 +1,15 @@
+.bg-nopage{
+    display: inline-flex;
+    place-items: center;
+    background: url('../../../assets/img/nopage-img.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;}
+
+    @media(max-width:768px){
+        .bg-nopage{
+            height: 50vh;
+           
+        }
+    }
