@@ -1,0 +1,71 @@
+.events-tagline{
+display: grid;
+background-color: #dfdfdf;
+color: #9e7b11;
+height: 350px;
+margin-bottom: 2rem;
+place-items: center;
+text-transform: uppercase;
+letter-spacing: 5px;
+}
+
+.join-container{
+display: grid;
+place-items: center;
+place-content: center;
+grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+gap:1rem;
+padding: 0px 20px 0px 20px;
+}
+
+
+
+.join-title h1{
+text-align: center;
+color: #9e7b11;
+margin-top: 20%;
+}
+
+.join-title p{
+text-align: center;
+line-height: 30px;
+font-weight: 100;
+}
+
+.history-img{
+background: url("../../../assets/img/history-church.png");
+background-size: cover;
+background-position: center;
+height: 600px;
+width: 100%;
+}
+
+.value-img{
+background: url("../../../assets/img/value-img.png");
+background-position: center;
+background-repeat: no-repeat;
+height: 600px;
+width: 100%;
+}
+
+.vision-img{
+background: url("../../../assets/img/vision-about.jpg");
+background-position: center;
+background-repeat: no-repeat;
+height: 600px;
+width: 100%;
+}
+
+
+
+@media(max-width:500px){
+.value-img{
+    height: 350px;
+}
+.vision-img{
+    height: 350px;
+}
+.history-img{
+    height: 350px;
+}
+}

@@ -1,0 +1,65 @@
+.events-tagline{
+display: grid;
+background-color: #dfdfdf;
+color: #9e7b11;
+height: 350px;
+margin-bottom: 2rem;
+place-items: center;
+text-transform: uppercase;
+letter-spacing: 5px;
+}
+
+.event-section{
+display: grid;
+place-items: center;
+place-content: center;
+grid-template-columns: repeat(auto-fit,minmax(350px,1fr));
+gap: .5em;
+padding: .8rem 0;
+text-align: center;
+margin-bottom: 2rem;
+}
+
+.card{
+width: 350px;
+padding: 1rem 0;
+margin: .3rem 0;
+text-transform: uppercase;
+letter-spacing: 3px;
+}
+
+.card-btn{
+background-color: #835e0a;
+color: #fff;
+padding: 1rem;
+border: none;
+width: 50%;
+text-transform: uppercase;
+cursor: pointer;
+transition: .3s;
+margin: auto;
+}
+
+.card-btn:hover{
+background-color: #dc9b09;
+    
+}
+
+.card-img1{
+background: url('../../../assets/img/Bible-Studies.png');
+background-size: cover;
+background-position: center;
+height: 333px;
+}
+.card-img2{
+background: url('../../../assets/img/worsh.png');
+background-size: cover;
+background-position: center;
+height: 333px;
+}
+.card-img3{
+background: url('../../../assets/img/sunay-school.png');
+background-size: cover;
+background-position: center;
+height: 333px;
+}
